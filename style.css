@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+body{
+  font-family: "Montserrat";
+}
+.main{
+  width:550px;
+  height:700px;
+  background:#f5f5f5;
+}
+.header{
+  width:100%;
+  height:75px;
+  background: #F55a5a;
+  display:grid;
+  place-items:center;
+}
+.header_container{
+  width:175px;
+  height:25px;
+  display:flex;
+}
+.header_icon{
+  content:url("https://www.svgrepo.com/show/73779/planet-earth.svg");
+  height:25px;
+  filter: invert(100%) sepia(36%) saturate(9%) hue-rotate(325deg) brightness(113%) contrast(92%);
+  margin-right:5px;
+}
+.header_text{
+  color:#f5f5f5;
+}
+.location_card{
+  width:100%;
+  display:grid;
+  grid-template-columns: 33% 67%;
+  grid-template-rows: 70px 90px;
+  margin-top:50px;
+}
+.location_img_container{
+  display:grid;
+  place-items:center;
+}
+.location_img{
+  border-radius:5px;
+  width:125px;
+  height:168px;
+  object-fit: cover;
+}
+.location_header_row1{
+  display:flex;
+}
+.location_country{
+  margin-left:5px;
+  font-size:10px;
+  align-self: flex-end;
+}
+.location_link{
+  color:#918e9b;
+  font-size:10px;
+  font-weight:400;
+  margin-left:15px;
+  text-align:center;
+  align-self: flex-end;
+}
+.location_name{
+  margin-top:5px;
+  font-size:30px;
+  font-weight:600;
+}
+
+.location_text{
+    grid-column-start: 2;
+  margin-right:25px;
+}
+
+.location_icon{
+  content:url("https://www.svgrepo.com/show/3335/location-pin.svg");
+  height:15px;
+  width:15px;
+  filter: invert(59%) sepia(64%) saturate(4426%) hue-rotate(327deg) brightness(98%) contrast(96%);
+}
+
+.location_timeframe{
+  font-weight:500;
+  font-size:14px;
+}
+.location_description{
+  font-size:12px;
+  margin-top:5px;
+}
